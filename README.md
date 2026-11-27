@@ -4,9 +4,11 @@ Publication-quality study-site mapping for a baited remote underwater video (BRU
 
 This repository contains the **QGIS and spatial-analysis component** of the project. The accompanying R workflow for BRUV data preparation, negative-binomial modelling and statistical figures is available in [las-perlas-bruv-analysis](https://github.com/kylealibz/las-perlas-bruv-analysis).
 
-> **Data availability:** The BRUV survey data and site-location data are owned by MarAlliance and are not included in this repository. Map exports showing the survey locations are also withheld. The repository provides the documented workflow, scripts, cartographic styles and data-free QGIS project structure only. Access to the underlying survey data must be requested directly from MarAlliance and is subject to its data-sharing conditions.
+> **Data availability:** The BRUV survey data and site-location data are owned by MarAlliance and are not included in this repository. The finalized map is an original cartographic output created by the repository author; it is provided for portfolio and research-communication purposes only. Access to the underlying survey data must be requested directly from MarAlliance and is subject to its data-sharing conditions.
 
-## Map design
+## Final map
+
+![Las Perlas Archipelago BRUV survey sites](outputs/Figure_1_Las_Perlas_study_site_map.png)
 
 The publication layout developed through this workflow contains:
 
@@ -19,7 +21,7 @@ The publication layout developed through this workflow contains:
 - coastlines, island labels, coordinate annotations, scale bars and north arrows; and
 - a publication-ready legend, caption, data attribution and CRS statement.
 
-The completed map is not distributed here because it displays MarAlliance survey-site locations.
+The figure is distributed as a rendered image only. No source survey table, coordinate file or extractable spatial layer is included.
 
 ## Repository structure
 
@@ -38,6 +40,8 @@ las-perlas-qgis-mapping/
 ├── styles/
 │   ├── Las_Perlas_clean_bathymetry.qml
 │   └── Las_Perlas_bathymetry_contours_10m.qml
+└── outputs/
+    └── Figure_1_Las_Perlas_study_site_map.png
 ```
 
 ## Software
