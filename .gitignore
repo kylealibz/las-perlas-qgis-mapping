@@ -1,0 +1,13 @@
+data/*
+!data/README.md
+data/*GMRT*.tif
+data/*topo*.tif
+*.qgd
+*.qgz~
+*.qgs~
+*.aux.xml
+*.ovr
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
